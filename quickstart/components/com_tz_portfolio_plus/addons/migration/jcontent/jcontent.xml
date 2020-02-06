@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="tz_portfolio_plus-plugin" group="migration" method="upgrade">
+    <name>plg_migration_jcontent</name>
+    <author>DuongTVTemPlaza</author>
+    <creationDate>March 21st 2018</creationDate>
+    <copyright>Copyright (C) 2011-2018 TemPlaza. All rights reserved.</copyright>
+    <license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <authorEmail>support@templaza.com</authorEmail>
+    <authorUrl>www.tzportfolio.com/</authorUrl>
+    <version>1.0.1</version>
+    <description>PLG_MIGRATION_JCONTENT_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="jcontent">jcontent.php</filename>
+        <filename>access.xml</filename>
+        <filename>index.html</filename>
+        <folder>admin</folder>
+        <folder>includes</folder>
+        <folder>language</folder>
+        <folder>libraries</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            </fieldset>
+        </fields>
+
+        <!-- START PERMISSIONS'S PARAMTERS -->
+        <fieldset name="permissions"
+                  label="JCONFIG_PERMISSIONS_LABEL"
+                  description="JCONFIG_PERMISSIONS_DESC">
+            <field type="tzrules" name="rules"
+                   section="addon" filter="rules"
+                   class="inputbox" validate="rules"
+                   label="JCONFIG_PERMISSIONS_LABEL"/>
+        </fieldset>
+        <!-- END PERMISSIONS'S PARAMTERS -->
+    </config>
+</extension>

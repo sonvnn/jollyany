@@ -1,0 +1,52 @@
+.colors-addon {
+    display: flex !important;
+    align-items: center;
+}
+.colors-addon>* {
+    margin-right: 15px;
+}
+.colors-addon>*:last-child {
+    margin-right: 0;
+}
+ul.color-chips {
+    float: left;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    line-height: 1;
+    padding: 0;
+}
+
+ul.color-chips li {
+    float: left;
+    width: 12.5%;
+    text-indent: -9999px;
+}
+
+ul.color-chips li a.color {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul.color-chips li a.color:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+ul.color-chips li:first-child a.color {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+ul.color-chips li:last-child a.color {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.stats-action img{
+    opacity: 0.7;
+}

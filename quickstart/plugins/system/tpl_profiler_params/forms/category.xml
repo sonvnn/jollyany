@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="article_category_listing">
+            <field type="spacer" hr="true"/>
+            <field type="spacer" name="spacer_profiler_template_category_listing_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_SYSTEM_TPL_PROFILER_PARAMS_FIELDSET_LABEL"/>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_position" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_POSITION">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="0" name="show_cat_tpl_profiler_practice_area" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_PRACTICE_AREA">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_phone" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_PHONE">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_email" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_EMAIL">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_facebook" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_FACEBOOK">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_twitter" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_TWITTER">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_linkedin" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_LINKEDIN">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_cat_tpl_profiler_google_plus" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_GOOGLE_PLUS">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="0" name="show_cat_tpl_profiler_description" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_DESC">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="0" name="show_cat_tpl_profiler_signature" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_SIGNATURE">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+
+        </fieldset>
+        <fieldset name="article">
+            <field type="spacer" hr="true"/>
+            <field type="spacer" name="spacer_profiler_template_category_listing_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_SYSTEM_TPL_PROFILER_PARAMS_FIELDSET_LABEL"/>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_position" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_POSITION">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_practice_area" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_PRACTICE_AREA">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_phone" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_PHONE">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_email" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_EMAIL">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_facebook" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_FACEBOOK">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_twitter" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_TWITTER">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_linkedin" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_LINKEDIN">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_google_plus" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_GOOGLE_PLUS">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_description" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_DESC">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field  type="radio" default="1" name="show_article_tpl_profiler_signature" class="btn-group"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_SIGNATURE">
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

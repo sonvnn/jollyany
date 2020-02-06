@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="value">
+        <fieldset addfieldpath="/administrator/components/com_tz_portfolio_plus/models/fields" >
+            <field type="email" name="email"
+                   required="true"
+                   class="form-control"
+                   label="PLG_CONTENT_CHARITY_EMAIL" hint="PLG_CONTENT_CHARITY_EMAIL"/>
+        </fieldset>
+    </fields>
+
+</form>

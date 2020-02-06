@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="tz_portfolio_plus-template" method="upgrade">
+    <name>vani</name>
+    <version>1.8</version>
+    <creationDate>July 2019</creationDate>
+    <author>Sonny</author>
+    <authorEmail>sonlv@templaza.com</authorEmail>
+    <authorUrl>www.templaza.com</authorUrl>
+    <copyright>Copyright (C) 2017 TemPlaza. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <description>TZ_PORTFOLIO_PLUS_TPL_XML_DESCRIPTION</description>
+    <files>
+        <folder>config</folder>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>language</folder>
+        <folder>scss</folder>
+        <filename>index.html</filename>
+        <filename>template.php</filename>
+        <filename>template.xml</filename>
+        <filename>template_preview.png</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field type="radio" name="use_single_layout_builder"
+                       default="1" class="btn-group"
+                       label="TPL_SYSTEM_LAYOUT_BUILDER_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field type="radio" name="load_style"
+                       default="1" class="btn-group"
+                       label="TPL_SYSTEM_LOAD_STYLE_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field type="list" name="subimage"
+                       default="4"
+                       label="TPL_VANI_LAYOUT_SUBIMAGE_LABEL" description="TPL_VANI_LAYOUT_SUBIMAGE_DESC">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </field>
+                <field type="text" name="introtext_cuttext"
+                       default="100"
+                       label="TPL_VANI_LAYOUT_INTROTEXT_CUTTEXT_LABEL">
+                </field>
+                <field type="text" name="padding"
+                       default=""
+                       label="TPL_VANI_LAYOUT_PADDING_LABEL">
+                </field>
+                <field type="text" name="topspacing"
+                       default="30"
+                       label="TPL_VANI_LAYOUT_TOPSPACING_LABEL">
+                </field>
+                <field type="text" name="module_carousel_height"
+                       default="450px"
+                       label="TPL_VANI_LAYOUT_MODULE_CAROUSEL_HEIGHT_LABEL">
+                </field>
+                <field type="radio" name="lightbox"
+                       default="1" class="btn-group"
+                       label="TPL_SYSTEM_LIGHTBOX_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+            </fieldset>
+            <fields name="colors">
+                <fieldset name="colors" label="TP_STYLE_VANI_COLORS_FIELDSET_LABEL">
+                    <field name="backgroundcolor" type="color" default="#ffffff"
+                           label="TPL_VANI_LAYOUT_BACKGROUNDCOLOR_LABEL"
+                           description="TPL_VANI_LAYOUT_BACKGROUNDCOLOR_DESC" />
+                </fieldset>
+            </fields>
+        </fields>
+    </config>
+</extension>

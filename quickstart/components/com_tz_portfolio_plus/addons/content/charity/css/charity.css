@@ -1,0 +1,212 @@
+.form-charity .form-horizontal .controls{
+    margin-left: 0;
+}
+.modal-open .modal-backdrop, .modal-open .modal-backdrop.fade.in {
+    opacity: 0.5;
+}
+.tz-form-donate .modal-body {
+    width: auto;
+    padding: 0;
+}
+.tz-form-donate .desc-specify {
+    color: #999;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.tz-form-donate div.modal {
+    width: 600px;
+    margin: 0 auto;
+}
+.tz-form-donate .item-input {
+    display: flex;
+    align-items: center;
+    min-width: 80px;
+    height: 50px;
+    padding: 0;
+    border: 1px solid #ebebeb;
+    margin: 5px;
+    text-align: center;
+    background: rgb(249, 249, 249) none repeat scroll 0 0;
+}
+.tz-form-donate .item-input label {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 0;
+    max-width: 100%;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    vertical-align: middle;
+    width: 100%;
+}
+.tz-form-donate .item-input:hover {
+    background: #d9d9d9;
+    border-color: #d9d9d9;
+}
+.tz-form-donate .item-input.selected {
+    color: #fff;
+    background: #5bc0de;
+    border-color: #46b8da;
+}
+.tz-form-donate .donate-form-text-input {
+    background: transparent;
+    border: none;
+    display: inline-block;
+}
+.tz-form-donate .donate-form-text-input:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #ffffff;
+}
+.tz-form-donate .donate-form-text-input:focus::placeholder {
+    color: rgba(255,255,255,0.7) !important;
+}
+.tz-form-donate .item-input.selected .donate-form-text-input::placeholder {
+    color: rgba(255,255,255,0.7) !important;
+}
+.tz-form-donate .choose-item {
+    display: block;padding-top: 20px;
+    width: 100%;
+}
+.tz-form-donate .choose-item .input_donate {
+    display: none;
+}
+.tz-form-donate .item-input.amount-custom {
+    width: 100%;
+    display: block;
+}
+.tz-form-donate .about-donate {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ebebeb;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+}
+.tz-form-donate .about-donate .item {
+    margin-right: 10px;
+}
+.tz-form-donate .about-donate input {
+    height: auto;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.tz-form-donate .about-donate .item-textarea {
+    clear: both;
+    display: block;
+    padding: 0 15px;
+}
+.tz-form-donate .about-donate .item-textarea textarea {
+    width: 100%;
+}
+.tz-form-donate .donate-number-error {
+    display: none;
+    color: red;
+}
+.tz-form-donate .error-select-amount {
+    display: none;
+    padding: 10px 15px;
+    color: red;
+}
+.tz-form-donate .about-donate::after {
+    clear: both;
+    content: " ";
+    display: block;
+    float: none;
+    position: relative;
+}
+#donateTab2 .center-btn{
+    text-align: center;
+    padding-top: 20px;
+}
+/* Update */
+body > .tz-form-donate > div {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.tz-form-donate.donate-detail #form-charity-donate {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.portfolio_cause.detail .evens .dash, .TzPortfolioDescription .evens .dash {
+    display: inline-block;
+}
+.portfolio_cause.detail .evens .dash .digit, .TzPortfolioDescription .evens .dash .digit {
+    float: left;
+}
+.bg-header {
+    background-position: center center;
+    height: 200px;
+}
+.modal-body #donateForm .donate-tab > ul li {
+    width: 50%;
+}
+.modal-body #donateForm .donate-tab > ul li a {
+    border: none;
+}
+#donate-form-submit.center-btn {
+	text-align: center;
+	padding-top: 25px;
+}
+#donate-form-submit.center-btn button {
+	display: block;
+    margin: 0 auto;
+}
+.tz-form-donate .choose-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.tz-form-donate .error-dialog {
+    padding: 0 15px;
+}
+.evens {
+    padding-bottom: 10px;
+}
+.portfolio_cause.detail .evens .dash{
+    padding-right: 5px
+}
+.donate-progress .progress-label > div {
+	display: inline-block;
+    width: 33%;
+}
+.donate-progress .progress-label > div.progress-ed {
+    float: left;
+}
+.donate-progress .progress-label > div.progress-final {
+    float: right;
+    text-align: right;
+}
+.donate-progress .progress-label > div.total {
+    text-align: center;
+}
+#tz-charity-donate.btn-info {
+	margin: 5px 0;
+}
+.TzPortfolioDescription .evens .dash .digit {
+    height: 20px;
+    line-height: 20px;
+}
+.modal-header .close {
+    margin-right: -10px;
+    margin-top: -15px;
+    opacity: 1;
+}
+/* End Update */

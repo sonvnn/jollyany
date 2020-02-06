@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <!-- Start article options in category listings -->
+        <fieldset name="articles">
+            <field type="list" name="show_mn_donate"
+                   label="JGLOBAL_SHOW_DONATE_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="article_setting">PLG_CONTENT_CHARITY_OPTION_INHERIT_FROM_ARTICLE</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="list" name="show_mn_events"
+                   label="JGLOBAL_SHOW_EVENTS_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="article_setting">PLG_CONTENT_CHARITY_OPTION_INHERIT_FROM_ARTICLE</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+        </fieldset>
+        <!-- End article options in category listings -->
+    </fields>
+</form>

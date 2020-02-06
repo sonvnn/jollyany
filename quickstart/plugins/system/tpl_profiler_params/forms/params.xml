@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="attribs">
+        <fieldset name="tpl_profiler_params" label="PLG_SYSTEM_TPL_PROFILER_PARAMS_FIELDSET_LABEL">
+            <field  type="text" default="" name="tpl_profiler_position"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_POSITION" />
+            <field  type="text" default="" name="tpl_profiler_practice_area"
+                        label="PLG_SYSTEM_TPL_PROFILER_PARAMS_PRACTICE_AREA" />
+            <field  type="text" default="" name="tpl_profiler_phone"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_PHONE" />
+            <field  type="text" default="" name="tpl_profiler_email"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_EMAIL" />
+            <field  type="text" default="" name="tpl_profiler_facebook"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_FACEBOOK" />
+            <field  type="text" default="" name="tpl_profiler_twitter"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_TWITTER" />
+            <field  type="text" default="" name="tpl_profiler_linkedin"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_LINKEDIN" />
+            <field  type="text" default="" name="tpl_profiler_google_plus"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_GOOGLE_PLUS" />
+            <field  type="editor" filter="JComponentHelper::filterText" default="" name="tpl_profiler_description"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_DESC" />
+            <field  type="media" default="" name="tpl_profiler_signature"
+                    label="PLG_SYSTEM_TPL_PROFILER_PARAMS_SIGNATURE" />
+        </fieldset>
+    </fields>
+</form>

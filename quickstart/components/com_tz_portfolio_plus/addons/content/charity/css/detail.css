@@ -1,0 +1,16 @@
+.portfolio_cause.detail .evens .dash, .TzPortfolioDescription .evens .dash {
+    display: inline-block;
+}
+.evens {
+    padding-bottom: 10px;
+}
+.portfolio_cause.detail .evens .dash, .TzPortfolioDescription .evens .dash{
+    padding-right: 5px
+}
+.portfolio_cause.detail .evens .dash .digit, .TzPortfolioDescription .evens .dash .digit {
+	float: left;
+}
+.portfolio_cause.detail .evens .dash .digit {
+    height: 20px;
+    line-height: 20px;
+}

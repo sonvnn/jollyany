@@ -1,0 +1,336 @@
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.tzml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+  position: relative;
+}
+.tzml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+}
+.tzml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.tzml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #cccccc;
+  transform-origin: 0 0;
+}
+.tzml1 .line1 {
+  top: 0;
+}
+.tzml1 .line2 {
+  bottom: 0;
+}
+.tzml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+  position: relative;
+}
+.tzml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+}
+.tzml2 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.tzml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  position: relative;
+}
+.tzml3 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.tzml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+.tzml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0;
+  text-align: center;
+}
+.tzml5 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.5em;
+}
+.tzml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+.tzml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #cccccc;
+  transform-origin: 0.5 0;
+}
+.tzml5 .ampersand {
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+.tzml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+.tzml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+.tzml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.tzml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.tzml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.tzml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml8 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+.tzml8 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1em;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+}
+.tzml8 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml9 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em;
+}
+.tzml9 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1em;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+}
+.tzml9 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+.tzml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.5em;
+}
+.tzml10 .text-wrapper {
+  display: inline-block;
+  padding-right: 0.05em;
+  position: relative;
+}
+.tzml10 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #cccccc;
+  transform-origin: 0 50%;
+}
+.tzml10 .line1 {
+  top: 0;
+  left: 0;
+}
+.tzml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml11 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  position: relative;
+}
+.tzml11 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1em;
+  text-align: center;
+}
+.tzml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml12 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  position: relative;
+}
+.tzml12 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1em;
+  text-align: center;
+}
+.tzml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml13 {
+  font-weight: 200;
+  font-size: 3.2em;
+  position: relative;
+}
+.tzml13 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.tzml13 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #cccccc;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+.tzml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml14 {
+  font-weight: 800;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  position: relative;
+}
+.tzml14 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1em;
+  text-align: center;
+}
+.tzml14 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+.tzml15 {
+  position: relative;
+}
+.tzml15 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  overflow: hidden;
+}
+.tzml15 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/*# sourceMappingURL=style.css.map */

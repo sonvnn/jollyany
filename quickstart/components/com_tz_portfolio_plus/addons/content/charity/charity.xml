@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="tz_portfolio_plus-plugin" group="content" method="upgrade">
+	<name>plg_content_charity</name>
+	<author>DuongTVTemPlaza</author>
+	<creationDate>Aug, 09th 2012</creationDate>
+	<copyright>Copyright (C) 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@templaza.com</authorEmail>
+	<authorUrl>www.templaza.com</authorUrl>
+	<version>2.0.3</version>
+	<description>PLG_CONTENT_CHARITY_XML_DESCRIPTION</description>
+    <scriptfile>script.php</scriptfile>
+    <!--<install>-->
+        <!--<sql>-->
+            <!--<file charset="utf8" driver="mysql">install/install.sql</file>-->
+        <!--</sql>-->
+    <!--</install>-->
+
+	<files>
+		<filename plugin="charity">charity.php</filename>
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>access.xml</filename>
+		<folder>admin</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>controllers</folder>
+		<folder>modules</folder>
+		<folder>language</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <!-- Start article options in category listings -->
+                <field type="spacer" name="spacer_article_category_listing_name"
+                       class="alert alert-warning btn-block"
+                       label="COM_TZ_PORTFOLIO_PLUS_SPACER_ARTICLE_OPTIONS_IN_CATEGORY_LISTINGS"/>
+                <field type="radio" name="show_cat_donate" default="1" class="btn-group"
+                       label="JGLOBAL_SHOW_DONATE_LABEL">
+                    <option value="0">JHIDE</option>
+                    <option value="1">JSHOW</option>
+                </field>
+                <field type="radio" name="show_cat_events" default="1" class="btn-group"
+                       label="JGLOBAL_SHOW_EVENTS_LABEL">
+                    <option value="0">JHIDE</option>
+                    <option value="1">JSHOW</option>
+                </field>
+				<field type="radio" name="tz_crt_ct_amounts" default="1" class="btn-group"
+					   label="ADDON_NONPROFIT_ARTICLE_AMOUNTS_CUSTOM">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field type="radio" name="load_style"
+					   class="btn-group" default="1"
+					   label="PLG_CONTENT_CHARITY_LOAD_STYLE_LABEL">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field type="spacer" name="spacer_article_listing_name"
+					   class="alert alert-warning btn-block"
+					   label="COM_TZ_PORTFOLIO_PLUS_ATTRIBS_FIELDSET_LABEL"/>
+				<field type="radio" name="show_article_donate" default="1" class="btn-group"
+					   label="JGLOBAL_SHOW_DONATE_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field type="radio" name="show_article_events" default="1" class="btn-group"
+					   label="JGLOBAL_SHOW_EVENTS_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field type="spacer" name="spacer_user_listing_name"
+					   class="alert alert-warning btn-block"
+					   label="PLG_CHARITY_SPACER_GLOBAL_USER_VIEW_OPTION"/>
+				<field type="radio" name="show_user_donate" default="1" class="btn-group"
+					   label="JGLOBAL_SHOW_DONATE_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field type="radio" name="show_user_events" default="1" class="btn-group"
+					   label="JGLOBAL_SHOW_EVENTS_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field type="spacer" name="spacer_tag_listing_name"
+					   class="alert alert-warning btn-block"
+					   label="PLG_CHARITY_SPACER_GLOBAL_TAG_VIEW_OPTION"/>
+				<field type="radio" name="show_tag_donate" default="1" class="btn-group"
+					   label="JGLOBAL_SHOW_DONATE_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field type="radio" name="show_tag_events" default="1" class="btn-group"
+					   label="JGLOBAL_SHOW_EVENTS_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+			</fieldset>
+
+            <fieldset name="donate" label="PLG_CRT_DONATE">
+                <field name="goal_money" type="text" label="PLG_CRT_DONATE_GOAL_MONEY" default="100" description="The total amount of money want to be donated." />
+                <field name="paypalEmail" type="text" label="PLG_CRT_DONATE_PAYPAL_EMAIL" default="test@gmail.com" description="Insert your Paypal email for testing donation"/>
+                <field name="paypalTest" type="radio" class="btn-group" label="PLG_CRT_DONATE_PAYPAL_TEST" default="1" description="Sandbox: If set to 'yes', you will not pay for donation when you test donation.">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+
+
+
+		</fields>
+
+		<!-- START PERMISSIONS'S PARAMTERS -->
+		<fieldset name="permissions"
+				  label="JCONFIG_PERMISSIONS_LABEL"
+				  description="JCONFIG_PERMISSIONS_DESC">
+			<field name="rules"
+				   type="tzrules"
+				   label="JCONFIG_PERMISSIONS_LABEL"
+				   class="inputbox"
+				   validate="rules"
+				   filter="rules"
+				   section="addon" />
+		</fieldset>
+		<!-- END PERMISSIONS'S PARAMTERS -->
+	</config>
+</extension>

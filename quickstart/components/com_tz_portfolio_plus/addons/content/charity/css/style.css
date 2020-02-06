@@ -1,0 +1,279 @@
+/***** Start addition css *****/
+/* Styles for event */
+.evens{
+    padding-bottom: 5px;
+}
+.portfolio_cause.detail .evens .dash, .TzPortfolioDescription .evens .dash, .evens .dash {
+    display: inline-block;
+}
+.portfolio_cause.detail .evens .dash{
+    padding-right: 0;
+}
+.evens .dash .digit{
+    float: left;
+}
+.evens .dash{
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-right: 5px;
+    min-width: 45px;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.evens .dash .digit{
+    height: 24px;
+}
+.evens .time_number {
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-align: center;
+}
+.evens .dash_title {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    padding: 3px 5px;
+    background: #fafafa;
+    border-top: 1px solid #dddddd;
+}
+/* End styles for event */
+
+/* Styles for cause */
+.charity{
+    margin-bottom: 10px;
+}
+.donate-progress{
+    margin-bottom: 5px;
+}
+.donate-progress .item-progress {
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    min-height: 10px;
+    overflow: hidden;
+}
+.donate-progress .progress-ed > span,
+.donate-progress .total > span,
+.donate-progress .progress-final > span {
+    font-weight: bold;
+}
+.charity .btn-donate{
+    color: #ffffff;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #46b8da;
+    background-color: #5bc0de;
+}
+.charity .btn-donate:hover,
+.charity .btn-donate:focus,
+.charity .btn-donate:active{
+    color: #ffffff;
+    border-color: #269abc;
+    background-color: #31b0d5;
+}
+/* End styles for cause */
+
+/* Styles for donate form */
+.tz-form-donate{
+    color: #616161;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tz-form-donate *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tz-form-donate .donate-modal{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.tz-form-donate .btn{
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-image: none;
+}
+.tz-form-donate .btn-primary{
+    color: #fff;
+    border-color: #2e6da4;
+    background-color: #337ab7;
+}
+.tz-form-donate .btn-primary:hover,
+.tz-form-donate .btn-primary:focus{
+    border-color: #204d74;
+    background-color: #286090;
+}
+.tz-form-donate .modal-header{
+    border: none;
+    padding: 15px;
+}
+.tz-form-donate .modal-header .close{
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    color: #616161;
+    background: #fff;
+    margin-top: -22px;
+    text-align: center;
+    margin-right: -22px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.tz-form-donate .modal-header .close:hover,
+.tz-form-donate .modal-header .close:focus,
+.tz-form-donate .modal-header .close:active{
+    opacity: 1;
+}
+.tz-form-donate #donateForm{
+    margin: 0;
+}
+.modal-open .tz-form-donate .donate-modal{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+.tz-form-donate .donate-modal.fade.in{
+    top: 0;
+}
+.tz-form-donate .modal-content{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.tz-form-donate .modal-dialog{
+    margin: 30px auto;
+    width: 600px;
+}
+.tz-form-donate .modal-content {
+    background-clip: padding-box;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0 none;
+    position: relative;
+}
+.tz-form-donate .nav{
+    margin-bottom: 20px;
+}
+.tz-form-donate .donate-tab{
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.tz-form-donate .tab-content{
+    padding: 0 15px;
+}
+.tz-form-donate .item-input.amount-custom{
+    padding: 0;
+    text-align: left;
+}
+.modal-body #donateForm .donate-tab .nav-tabs{
+    border: none;
+}
+.modal-body #donateForm .donate-tab .nav-tabs > li{
+    float: left;
+}
+.modal-body #donateForm .donate-tab > ul li {
+    /*margin-bottom: 0;*/
+    border-bottom: 1px solid #ddd;
+}
+.modal-body #donateForm .donate-tab > ul li a {
+    margin: 0;
+    color: #999;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-align: center;
+    background: #f9f9f9;
+    border-right: 1px solid #ddd;
+}
+.modal-body #donateForm .donate-tab > ul li:last-child a {
+    border-right: none;
+}
+.modal-body #donateForm .donate-tab > ul li.active{
+    border-bottom: none;
+}
+.modal-body #donateForm .donate-tab > ul li.active a,
+.modal-body #donateForm .donate-tab > ul li.active a:hover ,
+.modal-body #donateForm .donate-tab > ul li.active a:focus ,
+.modal-body #donateForm .donate-tab > ul li.active a:active {
+    color: #616161;
+    background: #fff;
+}
+.modal-body #donateForm .donate-tab > ul li a:hover,
+.modal-body #donateForm .donate-tab > ul li a:focus,
+.modal-body #donateForm .donate-tab > ul li a:active{
+    outline: none;
+    background: #f5f5f5;
+}
+.tz-form-donate .about-donate .item{
+    padding: 0;
+    width: 100%;
+}
+.item-progress .child-prgb{
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #f0ad4e;
+}
+.tz-form-donate input,
+.tz-form-donate textarea,
+.tz-form-donate .uneditable-input{
+    width: 100%;
+}
+.tz-form-donate .about-donate input{
+    margin-bottom: 0;
+    padding: 6px 12px;
+}
+#donate-form-submit.center-btn{
+    padding-top: 0;
+}
+/* End styles for donate form */
+
+/* Styles for donate in article view */
+.portfolio_cause{
+    margin-top: 15px;
+}
+.portfolio_cause .charity{
+    margin-bottom: 15px;
+}
+/* End styles for donate in article view */
+
+
+@media (max-width: 767px) {
+    .tz-form-donate .modal-dialog{
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .tz-form-donate .donate-form-text-input{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/***** End addition css *****/

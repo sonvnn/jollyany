@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset addfieldpath="/administrator/components/com_tz_portfolio_plus/models/fields" >
+        <field type="text" name="id"
+               default="0" readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL"
+               description ="JGLOBAL_FIELD_ID_DESC" />
+        <field type="list" name="published"
+               class="chzn-color-state" size="1" default="1"
+               label="JSTATUS"
+               description="JFIELD_PUBLISHED_DESC">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+    </fieldset>
+    <fields name="value">
+        <field type="text" name="title"
+               required="true"
+               label="JGLOBAL_TITLE"
+               description="PLG_CONTENT_CHARITY_CURRENCY_TITLE_DESC"/>
+        <field type="text" name="code"
+               label="PLG_CONTENT_CHARITY_CURRENCY_CODE_LABEL"
+               description="PLG_CONTENT_CHARITY_CURRENCY_CODE_DESC"/>
+        <field type="text" name="sign"
+               label="PLG_CONTENT_CHARITY_CURRENCY_SIGN_LABEL"
+               description="PLG_CONTENT_CHARITY_CURRENCY_SIGN_DESC"/>
+        <field type="radio" name="display"
+               class="btn-group" default="0"
+               label="PLG_CONTENT_CHARITY_CURRENCY_DISPLAY_BY_LABEL"
+               description="PLG_CONTENT_CHARITY_CURRENCY_DISPLAY_BY_DESC">
+            <option value="0">PLG_CONTENT_CHARITY_CURRENCY_CODE_LABEL</option>
+            <option value="1">PLG_CONTENT_CHARITY_CURRENCY_SIGN_LABEL</option>
+        </field>
+        <field type="radio" name="position"
+               class="btn-group" default="0"
+               label="PLG_CONTENT_CHARITY_CURRENCY_AT_POSITION_LABEL"
+               description="PLG_CONTENT_CHARITY_CURRENCY_AT_POSITION_DESC">
+            <option value="0">JGLOBAL_LEFT</option>
+            <option value="1">JGLOBAL_RIGHT</option>
+        </field>
+        <field type="radio" name="default"
+               class="btn-group" default="0"
+               label="JDEFAULT"
+               description="PLG_CONTENT_CHARITY_CURRENCY_DEFAULT_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field type="editor" name="description"
+               filter="JComponentHelper::filterText"
+               label="JGLOBAL_DESCRIPTION"
+               description="JGLOBAL_DESCRIPTION">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fields>
+</form>

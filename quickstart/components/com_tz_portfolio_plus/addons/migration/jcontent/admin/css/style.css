@@ -1,0 +1,91 @@
+.tpp-addon__migrate .heading > small{
+    margin-top: 7px;
+}
+.tpp-addon__migrate [data-progress-status]{
+    height:98%;
+    overflow:auto;
+    max-height: 300px;
+}
+.tpp-addon__migrate [data-progress-stat]{
+    height:98%;
+    overflow:auto;
+}
+.tpp-addon__migrate .tpp-spiner{
+    top: 1px;
+    width: 13px;
+    height: 13px;
+    position: relative;
+}
+/*.tpp-addon__migrate [data-migrate-button] .tpp-addon__icon{*/
+    /*display: inline-block;*/
+/*}*/
+/*.tpp-addon__migrate [data-migrate-button].active .tpp-addon__icon{*/
+    /*display: none;*/
+/*}*/
+/*.tpp-addon__migrate [data-migrate-button] .tpp-spiner{*/
+    /*display: none;*/
+/*}*/
+/*.tpp-addon__migrate [data-migrate-button].active .tpp-spiner{*/
+    /*display: inline-block;*/
+/*}*/
+
+.tpp-addon__migrate-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tpp-addon__migrate-flexbox .item .info{
+    margin-bottom: 0;
+}
+.tpp-addon__migrate-flexbox .item .number{
+    line-height: 1;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.tpp-addon__migrate-flexbox.statistic .item{
+    padding: 15px 25px !important;
+}
+.tpp-addon__migrate .tpp-addon__migrate-flexbox .item{
+    display: flex;
+    align-items: center;
+}
+.tpp-addon__migrate-flexbox.statistic .left{
+    width: 58px;
+    height: 58px;
+    color: #fff;
+    background: #ebebeb;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5em;
+    margin-right: 0.6em;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.tpp-addon__migrate-flexbox.statistic .migrate-icon{
+    margin: 0;
+    width: auto;
+    height: auto;
+    line-height: 56px;
+}
+.tpp-addon__migrate-flexbox.statistic .migrate-icon.icon-file-check{
+    margin-left: 4px;
+}
+.tpp-addon__migrate-flexbox > .item:nth-child(4n + 1) .left{
+    background: #5dbbdd;
+}
+.tpp-addon__migrate-flexbox > .item:nth-child(4n + 2) .left{
+    background: #f09e38;
+}
+.tpp-addon__migrate-flexbox > .item:nth-child(4n + 3) .left{
+    background: #2cd67d;
+}
+.tpp-addon__migrate-flexbox > .item:nth-child(4n) .left{
+    background: #d74945;
+}
+/*.tpp-addon__migrate-flexbox.statistic .migrate-icon{*/
+    /*width: auto;*/
+    /*height: auto;*/
+    /*line-height: 1;*/
+    /*font-size: 3.5em;*/
+    /*margin-right: 0.32em;*/
+/*}*/

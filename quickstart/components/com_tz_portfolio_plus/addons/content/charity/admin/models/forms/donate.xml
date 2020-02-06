@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset addfieldpath="/administrator/components/com_tz_portfolio_plus/models/fields" >
+        <field type="text" name="id"
+               default="0" readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL"
+               description ="JGLOBAL_FIELD_ID_DESC" />
+        <field type="list" name="published"
+               class="chzn-color-state" size="1" default="1"
+               label="JSTATUS"
+               description="JFIELD_PUBLISHED_DESC">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+    </fieldset>
+    <fields name="value">
+        <field type="text" name="firstname"
+               class="form-control"
+               label="First Name" hint="First Name"/>
+        <field type="email" name="email"
+               class="form-control"
+               label="Email" hint="Email"/>
+        <field type="textarea" name="address"
+               class="form-control"
+               label="Address" hint="Address"/>
+        <field type="textarea" name="comment"
+               class="form-control"
+               label="Comment" hint="Comment"/>
+        <field type="text" name="money_donate" label="Amount Donate" class="form-control" hint="Amount Donate"/>
+
+    </fields>
+</form>

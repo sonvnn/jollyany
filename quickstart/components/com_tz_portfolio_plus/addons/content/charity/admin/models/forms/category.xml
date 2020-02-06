@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="article_category_listing">
+            <field type="spacer" name="spacer_charity_hr" hr="true"/>
+            <field type="spacer" name="spacer_charity_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_CONTENT_CHARITY_OPTIONS_LABEL"/>
+            <field type="list" name="show_cat_donate"
+                   label="JGLOBAL_SHOW_DONATE_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="list" name="show_cat_events"
+                   label="JGLOBAL_SHOW_EVENTS_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="spacer" name="spacer_user_listing_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_CHARITY_SPACER_GLOBAL_USER_VIEW_OPTION"/>
+            <field type="list" name="show_user_donate"
+                   label="JGLOBAL_SHOW_DONATE_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="list" name="show_user_events"
+                   label="JGLOBAL_SHOW_EVENTS_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="spacer" name="spacer_tag_listing_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_CHARITY_SPACER_GLOBAL_TAG_VIEW_OPTION"/>
+            <field type="list" name="show_tag_donate"
+                   label="JGLOBAL_SHOW_DONATE_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="list" name="show_tag_events"
+                   label="JGLOBAL_SHOW_EVENTS_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+        </fieldset>
+        <fieldset name="article">
+            <field type="spacer" name="spacer_charity_hr" hr="true"/>
+            <field type="spacer" name="spacer_charity_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_CONTENT_CHARITY_OPTIONS_LABEL"/>
+            <field type="list" name="show_article_donate"
+                   label="JGLOBAL_SHOW_DONATE_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field type="list" name="show_article_events"
+                   label="JGLOBAL_SHOW_EVENTS_LABEL">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

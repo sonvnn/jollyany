@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="module" client="site" method="upgrade">
+    <name>mod_tz_moving_letters</name>
+    <author>TemPlaza</author>
+    <creationDate>November 11th 2015</creationDate>
+    <copyright>Copyright (C) 2015 TemPlaza. All rights reserved.</copyright>
+    <license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <authorEmail>support@templaza.com</authorEmail>
+    <authorUrl>www.templaza.com/</authorUrl>
+    <version>1.0.0</version>
+    <description>MOD_TZ_MOVING_LETTERS_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_tz_moving_letters">mod_tz_moving_letters.php</filename>
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>tmpl</folder>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_tz_moving_letters.xml</filename>
+    </files>
+    <languages folder="languages">
+        <language tag="en-GB">en-GB/en-GB.mod_tz_moving_letters.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_tz_moving_letters.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                
+                <field name="effect" type="list" default="3"
+                       label="MOD_TZ_MOVING_LETTERS_EFFECT_LABEL"
+                       description="MOD_TZ_MOVING_LETTERS_EFFECT_LABEL">
+                    <option value="1">EFFECT1</option>
+                    <option value="2">EFFECT2</option>
+                    <option value="3">EFFECT3</option>
+                    <option value="4">EFFECT4</option>
+                    <option value="5">EFFECT5</option>
+                    <option value="6">EFFECT6</option>
+                    <option value="7">EFFECT7</option>
+                    <option value="8">EFFECT8</option>
+                    <option value="9">EFFECT9</option>
+                    <option value="10">EFFECT10</option>
+                    <option value="11">EFFECT11</option>
+                    <option value="12">EFFECT12</option>
+                    <option value="13">EFFECT13</option>
+                    <option value="14">EFFECT14</option>
+                    <option value="15">EFFECT15</option>
+                </field>
+                <field name="textdata" type="textarea" default="" label="MOD_TZ_MOVING_LETTERS_TEXT_LABEL" description="MOD_TZ_MOVING_LETTERS_TEXT_DESC" rows="10" cols="5" filter="raw"/>
+                <field name="textalign" type="radio"
+                       class="btn-group switcher" default="center"
+                       label="MOD_TZ_MOVING_LETTERS_TEXTALIGN_LABEL">
+                    <option value="left">MOD_TZ_MOVING_LETTERS_TEXTALIGN_LEFT</option>
+                    <option value="center">MOD_TZ_MOVING_LETTERS_TEXTALIGN_CENTER</option>
+                    <option value="right">MOD_TZ_MOVING_LETTERS_TEXTALIGN_RIGHT</option>
+                </field>
+            </fieldset>
+
+            <fieldset name="advanced">
+                <field type="modulelayout" name="layout"
+                       label="JFIELD_ALT_LAYOUT_LABEL"
+                       description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+                <field type="text" name="moduleclass_sfx"
+                       label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                       description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+                <field type="list" name="cache"
+                       default="1"
+                       label="COM_MODULES_FIELD_CACHING_LABEL"
+                       description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field type="text" name="cache_time"
+                       default="900"
+                       label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                       description="COM_MODULES_FIELD_CACHE_TIME_DESC"/>
+                <field type="hidden" name="cachemode"
+                       default="static">
+                    <option value="static"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+        <server type="extension" pirority="1" name="Module TZ Moving Letters">
+            <![CDATA[https://www.templaza.com/tzupdates/module_tz_moving_letters.xml]]>
+        </server>
+    </updateservers>
+</extension>

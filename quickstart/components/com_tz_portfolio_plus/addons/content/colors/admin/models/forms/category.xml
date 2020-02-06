@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <!-- Parameters for article's create or edit view -->
+    <fields name="params">
+        <fieldset name="article_category_listing">
+            <field type="spacer" name="spacer_colors_hr" hr="true"/>
+            <!-- Start article options in category listings -->
+            <field type="spacer" name="spacer_article_category_listing_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_CONTENT_COLORS_OPTIONS_LABEL"/>
+            <field type="list" name="show_cat_colors"
+                   label="PLG_CONTENT_COLORS_SHOW_COLORS_LABEL"
+                   description="PLG_CONTENT_COLORS_SHOW_COLORS_DESC">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field name="show_cat_aco" type="list"
+                   label="PLG_CONTENT_COLORS_SHOW_ACO_LABEL"
+                   description="PLG_CONTENT_COLORS_SHOW_ACO_DESC">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <!-- End article options in category listings -->
+        </fieldset>
+        <fieldset name="article" label="COM_TZ_PORTFOLIO_PLUS_ATTRIBS_FIELDSET_LABEL">
+            <!-- Start article options -->
+            <field type="spacer" name="spacer_colors_hr" hr="true"/>
+            <field type="spacer" name="spacer_article_name"
+                   class="alert alert-warning btn-block"
+                   label="PLG_CONTENT_COLORS_OPTIONS_LABEL"/>
+            <field type="list" name="show_colors"
+                   label="PLG_CONTENT_COLORS_SHOW_COLORS_LABEL"
+                   description="PLG_CONTENT_COLORS_SHOW_COLORS_DESC">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+            <field name="show_aco" type="list"
+                   label="PLG_CONTENT_COLORS_SHOW_ACO_LABEL"
+                   description="PLG_CONTENT_COLORS_SHOW_ACO_DESC">
+                <option value="">JGLOBAL_USE_GLOBAL</option>
+                <option value="0">JHIDE</option>
+                <option value="1">JSHOW</option>
+            </field>
+
+            <!-- End article options -->
+        </fieldset>
+    </fields>
+    <!-- End parameters for article's create or edit view -->
+</form>

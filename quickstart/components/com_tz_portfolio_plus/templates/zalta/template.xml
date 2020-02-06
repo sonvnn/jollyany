@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="tz_portfolio_plus-template" method="upgrade">
+    <name>zalta</name>
+    <version>1.0.6</version>
+    <creationDate>February 20th 2019</creationDate>
+    <author>Sonny</author>
+    <authorEmail>sonlv@templaza.com</authorEmail>
+    <authorUrl>www.templaza.com</authorUrl>
+    <copyright>Copyright (C) 2019 TemPlaza. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <description>TZ_PORTFOLIO_PLUS_TPL_XML_DESCRIPTION</description>
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>js</folder>
+        <filename>index.html</filename>
+        <filename>template.php</filename>
+        <filename>template.xml</filename>
+        <filename>template_preview.png</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field type="radio" name="use_single_layout_builder"
+                       default="1" class="btn-group"
+                       label="TPL_SYSTEM_LAYOUT_BUILDER_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field type="radio" name="load_style"
+                       default="1" class="btn-group"
+                       label="TPL_SYSTEM_LOAD_STYLE_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="ratio" type="text" label="TPL_STYLE_RATIO_LABEL"
+                       description="TPL_STYLE_RATIO_DESC" default="5:3"/>
+                <field name="lightbox_option" type="List"
+                       label="TPL_LIGHTBOX_OPTION_LABEL"
+                       description="TPL_LIGHTBOX_OPTION_LABEL"
+                       multiple="true"
+                       default="[&quot;zoom&quot;, &quot;slideShow&quot;, &quot;fullScreen&quot;, &quot;thumbs&quot;, &quot;close&quot;]"
+                       >
+                    <option value="zoom">zoom</option>
+                    <option value="share">share</option>
+                    <option value="slideShow">slideShow</option>
+                    <option value="fullScreen">fullScreen</option>
+                    <option value="download">download</option>
+                    <option value="thumbs">thumbs</option>
+                    <option value="close">close</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
