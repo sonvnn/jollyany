@@ -7,7 +7,7 @@
  */
 defined('_JEXEC') or die;
 
-jimport('astroid.framework.article');
+jimport('jollyany.framework.article');
 
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 if (version_compare(JVERSION, '3.99999.99999', 'le')) {
@@ -17,7 +17,7 @@ if (version_compare(JVERSION, '3.99999.99999', 'le')) {
 }
 
 // Astroid Article/Blog
-$astroidArticle = new AstroidFrameworkArticle($this->item);
+$astroidArticle = new JollyanyFrameworkArticle($this->item);
 $template = new AstroidFrameworkTemplate(JFactory::getApplication()->getTemplate(true));
 // Create shortcuts to some parameters.
 $params = $this->item->params;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="de0fe547-5b32-4eb6-9ac6-88a79eff5c2f" name="jollyany" url="http://joomla.templaza.com/jollyany">
+        <fileTransfer host="joomla.templaza.com" port="21" rootFolder="/public_html/jollyany">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

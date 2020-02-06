@@ -7,11 +7,11 @@
  * @license https://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or Later
  */
 defined('_JEXEC') or die;
-jimport('astroid.framework.article');
+jimport('jollyany.framework.article');
 jimport('astroid.framework.template');
 $template = new AstroidFrameworkTemplate(JFactory::getApplication()->getTemplate(true));
 // Astroid Article/Blog
-$astroidArticle = new AstroidFrameworkArticle($this->item, true);
+$astroidArticle = new JollyanyFrameworkArticle($this->item, true);
 // Create a shortcut for params.
 $params = $this->item->params;
 $tpl_params = JFactory::getApplication()->getTemplate(true)->params;
@@ -22,7 +22,7 @@ $useDefList = ($params->get('show_modify_date') || $params->get('show_publish_da
 $document = JFactory::getDocument();
 // Post Format
 $post_attribs = new JRegistry(json_decode($this->item->attribs));
-$post_format = $post_attribs->get('post_format', 'standard');
+$post_format = $post_attribs->get('astroid_article_type', 'standard');
 ?>
 <?php if ($this->item->state == 0 || strtotime($this->item->publish_up) > strtotime(JFactory::getDate()) || ((strtotime($this->item->publish_down) < strtotime(JFactory::getDate())) && $this->item->publish_down != JFactory::getDbo()->getNullDate())) :
    ?>
@@ -32,8 +32,11 @@ $post_format = $post_attribs->get('post_format', 'standard');
    if ($post_format == 'standard') {
       echo JLayoutHelper::render('joomla.content.intro_image', $this->item);
    } else {
-      echo JLayoutHelper::render('joomla.content.post_formats.post_' . $post_format, array('params' => $post_attribs, 'item' => $this->item));
+       echo '<div class="post '.$post_format.'">';
+       $astroidArticle->render();
+       echo '</div>';
    }
+
    $image = $astroidArticle->getImage();
    if (is_string($image) && !empty($image)) {
       $astroidArticle->template->loadLayout('blog.modules.image', true, ['image' => $image, 'title' => $this->item->title]);
