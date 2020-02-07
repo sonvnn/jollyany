@@ -181,7 +181,7 @@ class pkg_jollyanyInstallerScript {
             <a href="index.php?option=com_templates" class="btn btn-default">Get started</a>
          </div>
          <div class="astroid-support-link">
-            <a href="https://jollyany.co/support/documentation" target="_blank">Documentation</a> <span>|</span> <a href="https://1.envato.market/zODvW" target="_blank">Changelog</a> <span>|</span> <a href="https://jollyany.co/support/support-forums" target="_blank">Forum</a>
+            <a href="https://jollyany.co/support/documentation" target="_blank">Documentation</a> <span>|</span> <a href="https://1.envato.market/zODvW" target="_blank">Changelog</a> <span>|</span> <a href="https://www.templaza.com/forums.html" target="_blank">Forum</a>
          </div>
       </div>
       <?php
